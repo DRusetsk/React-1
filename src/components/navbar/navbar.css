@@ -59,12 +59,13 @@
 }
 
 .gpt3__navbar-menu{
-    margin-left: 1rem;
+    margin-left: 100px;
     display:none;
     position: relative;
 }
 
 .gpt3__navbar-menu svg{
+    margin-left: 5rem;
     cursor: pointer;
 }
 
@@ -73,13 +74,13 @@
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-
+    
     text-align: end;
     background: var(--color-footer);
     padding: 2rem;
     position: absolute;
-    top:40px;
-    right: 0;
+    top:100px;
+    right: 50px;
     margin-top: 1rem;
     min-width: 210px;
     border-radius: 5px;
@@ -100,7 +101,7 @@
     }
 
     .gpt3__navbar-menu{
-        display: none;
+        display: flex;
     }
 }
 
