@@ -16,7 +16,7 @@ const Header = () => {
 
         <div className='gpt3__header-content__people'>
           <img src= {people} alt='people'/>
-          <p>420 people requested access in the last 24</p>
+          <p>420 people requested access in the last 24 hours</p>
         </div>
 
         <div className='gpt3__header-image'>
