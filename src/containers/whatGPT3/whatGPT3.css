@@ -33,8 +33,11 @@
     margin: 0;
 }
 
-.gpt3__whatgpt3-feature .gpt3__whatgpt3-features-container__feature-text{
+/* This modifies the text for the first 'feature' */
+.gpt3__whatgpt3-feature .gpt3__features-container_feature-text{
     max-width: 700px;
+    margin-top: 2rem;
+    align-items: right;
 }
 
 .gpt3__whatgpt3-heading{
@@ -134,7 +137,4 @@
       .gpt3__features-container__feature {
         margin: 1rem 0;
       }
-}
-.gpt3__whatgpt3-feature .gpt3__features-container__feature {
-    flex-direction: row;
 }
