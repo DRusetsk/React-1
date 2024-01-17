@@ -26,7 +26,7 @@
 
 .gpt3__whatgpt3-feature{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .gpt3__whatgpt3-feature .gpt3__whatgpt3-features-container__feature{
@@ -121,12 +121,12 @@
 }
 
 @media screen and (max-width: 550px){
-    .gpt3__features-container__feature- h1{ 
+    .gpt3__features-container__feature h1{ 
       font-size: 14px;
       line-height: 22px;
     }
 
-    .gpt3__features-container__feature- p{ 
+    .gpt3__features-container__feature p{ 
         font-size: 12px;
         line-height: 20px;
       }
@@ -134,4 +134,7 @@
       .gpt3__features-container__feature {
         margin: 1rem 0;
       }
-  }
+}
+.gpt3__whatgpt3-feature .gpt3__features-container__feature {
+    flex-direction: row;
+}
